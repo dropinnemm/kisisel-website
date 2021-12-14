@@ -1,0 +1,50 @@
+.box {
+  float: left;
+  width: 55px;
+  height: 58px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0.6em;
+  transition: all 0.4s;
+}
+
+.box .icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: all 0.4s;
+}
+
+.instagram {
+  background: black;
+}
+
+.facebook {
+  background: black;
+}
+
+.twitter {
+  background: black;
+}
+
+.whatsapp {
+  background: black;
+}
+.github {
+  background: black;
+}
+
+.box:hover .icon {
+  background: white;
+  color: black;
+}
